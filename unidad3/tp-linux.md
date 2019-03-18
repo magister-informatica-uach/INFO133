@@ -4,7 +4,7 @@
 
 ### Responsable: Matthieu Vernier, mvernier@inf.uach.cl
 
-## TP: Introducción al sistema operativo GNU/Linux
+## TP: Introducción al sistema operativo GNU/Linux :yum:
 
 Como todos los sistemas operativos derivados de Unix, GNU/Linux dispone de un intérprete de comandos o terminal (en inglés se utiliza la palabra shell) que hace de interfaz entre el usuario y el propio sistema operativo y cuyo nombre es BASH.
 
@@ -85,6 +85,19 @@ El comando **ls** se usa para mostrar los permisos (y más detalles) de archivos
 
 I think you should use an
 `<addr>` element here instead.
+
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
 
 
 
