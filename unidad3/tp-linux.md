@@ -8,9 +8,9 @@
 
 Como todos los sistemas operativos derivados de Unix, GNU/Linux dispone de un intérprete de comandos o terminal (en inglés se utiliza la palabra shell) que hace de interfaz entre el usuario y el propio sistema operativo y cuyo nombre es BASH.
 
-**Desde Ubuntu: abrir un terminal BASH con CTRL-Alt-T**
+> Desde Ubuntu, abrir un terminal BASH con CTRL-Alt-T
 
-### Sistema de archivos GNU/Linux
+### 1. Sistema de archivos GNU/Linux
 
 En GNU/Linux, todo es un archivo. Los archivos se organizan en directorios (los directorios son tipos particulares de archivos). Todos los archivos y directorios están ordenados en un gran árbol que tiene como raíz «/». 
 
@@ -25,7 +25,7 @@ En GNU/Linux, todo es un archivo. Los archivos se organizan en directorios (los 
 	- **/home/**: todos los archivos personales de los usuarios
 
 
-#### Comandos útiles para gestionar archivos
+#### 1.1 Comandos útiles para gestionar archivos
 
 1. **cd /home**: entrar en el directorio "home"
 1. **cd ..**: retroceder un nivel
