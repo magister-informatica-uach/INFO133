@@ -28,7 +28,7 @@ La asignatura de **Base de Datos** tiene como principal propósito que los estud
 	- [TP: Ejercicios de transformación y normalización en base de datos no relacional]	
 
 - **Unidad 3:** ¿Cómo crear y consultar una Base de Datos y integrarla con otros programas?
-	- [TP: Introducción a sistema operativo GNU/Linux](unidad3/tp-linux.pdf)
+	- [TP: Introducción a sistema operativo GNU/Linux](unidad3/tp-linux.md)
 	- [TP: Introducción al lenguaje SQL y MySQL]
 	- [TP: Lenguaje SQL avanzado]
 	- [TP: Construcción de una API Rest]
