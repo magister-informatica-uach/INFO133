@@ -16,11 +16,11 @@ Como todos los sistemas operativos derivados de Unix, GNU/Linux dispone de un in
 
 En GNU/Linux, todo es un archivo. Los archivos se organizan en directorios (los directorios son tipos particulares de archivos). Todos los archivos y directorios están ordenados en un gran árbol que tiene como raíz «/». 
 
-- Cada directorio tiene un nombre que puede contener cualquier letra o símbolo excepto «/». El directorio raíz es una excepción: su nombre es «/» (pronunciado «barra« o «el directorio raíz«) y no puede ser renombrado. 
+Cada directorio tiene un nombre que puede contener cualquier letra o símbolo excepto «/». El directorio raíz es una excepción: su nombre es «/» (pronunciado «barra« o «el directorio raíz«) y no puede ser renombrado. 
 
-- Cada archivo o directorio es identificado con una **ruta** única. 
+Cada archivo o directorio es identificado con una **ruta** única. 
 
-- El directorio raíz tiene un cierto número de ramificaciones, como «/etc/» y «/usr/». Estos subdirectorios a su vez se ramifican en más subdirectorios, como «/etc/init.d/» y «/usr/local/». El todo, visto colectivamente, es llamado el árbol de directorios.
+El directorio raíz tiene un cierto número de ramificaciones, como «/etc/» y «/usr/». Estos subdirectorios a su vez se ramifican en más subdirectorios, como «/etc/init.d/» y «/usr/local/». El todo, visto colectivamente, es llamado el árbol de directorios.
 
 	- **/etc/**: archivos principales para la configuración del sistema
 	- **/var/log/**: archivos de registro del sistema
@@ -47,8 +47,8 @@ En GNU/Linux, todo es un archivo. Los archivos se organizan en directorios (los 
 
 #### 1.3 Ejercicio
 
-1. Crear un repositorio "INFO133" en su carpeta de usuario (/home/REEMPLAZAR_CON_SU_NOMBRE_DE_USUARIO) con el comando **mkdir**
-1. Crear un archivo texto vacio llamado mis_comandos.txt con el comando **touch**
+> Crear un repositorio "INFO133" en su carpeta de usuario (/home/REEMPLAZAR_CON_SU_NOMBRE_DE_USUARIO) con el comando **mkdir**
+> Crear un archivo texto vacio llamado mis_comandos.txt con el comando **touch**
 
 
 ### 2. Gestión de permisos en el sistema de archivos
@@ -61,14 +61,14 @@ Los permisos en el sistema de archivos en los sistemas tipo Unix se definen basa
 - el resto de usuarios (**o**) también denominado «universo» o «todos».
 
 Para cada archivo, cada permiso permite las siguientes acciones:
-- el permiso de lectura (r) permite al dueño examinar el contenido del archivo;
-- el permiso de escritura (w) permite al dueño modificar el archivo;
-- el permiso de ejecución (x) permite al dueño ejecutar el archivo como una orden.
+- el permiso de lectura (**r**) permite al dueño examinar el contenido del archivo;
+- el permiso de escritura (**w**) permite al dueño modificar el archivo;
+- el permiso de ejecución (**x**) permite al dueño ejecutar el archivo como una orden.
 
 Para los directorios, cada permiso permite las siguientes acciones:
-- el permiso de lectura (r) permite al dueño obtener una relación del contenido del directorio;
-- el permiso de escritura (w) permite al dueño añadir o borrar archivos al directorio;
-- el permiso de ejecución (x) permite al dueño acceder a los archivos del directorio.
+- el permiso de lectura (**r**) permite al dueño obtener una relación del contenido del directorio;
+- el permiso de escritura (**w**) permite al dueño añadir o borrar archivos al directorio;
+- el permiso de ejecución (**x**) permite al dueño acceder a los archivos del directorio.
 
 El permiso de ejecución de un directorio no solo indican que se puede leer los archivos que contiene, sí no también permite ver sus atributos, como el tamaño y la fecha de modificación.
 
@@ -76,8 +76,8 @@ El comando **ls** se usa para mostrar los permisos (y más detalles) de archivos
 
 - tipo de fichero (primer carácter: -, d, l, etc.),
 - permisos del archivo (nueve caracteres, tres para el usuario, tres para el grupo y los tres últimos para el resto, en este orden),
--  número de enlaces duros al archivo,
--  nombre del usuario que es dueño del archivo,
+- número de enlaces duros al archivo,
+- nombre del usuario que es dueño del archivo,
 - nombre del grupo al que pertenece,
 - tamaño del archivo expresado en caracteres (bytes),
 - fecha y hora del archivo (mtime),
@@ -86,12 +86,9 @@ El comando **ls** se usa para mostrar los permisos (y más detalles) de archivos
 I think you should use an
 `<addr>` element here instead.
 
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
+```python
+import sys
+print(sys.os)
 ```
 
 First Header | Second Header
