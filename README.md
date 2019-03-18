@@ -28,7 +28,7 @@ La asignatura de **Base de Datos** tiene como principal propósito que los estud
 	- [TP: Ejercicios de transformación y normalización en base de datos no relacional]	
 
 - **Unidad 3:** ¿Cómo crear y consultar una Base de Datos y integrarla con otros programas?
-	- [TP: Introducción a sistema operativo GNU/Linux]
+	- [TP: Introducción a sistema operativo GNU/Linux] (unidad3/tp-linux.pdf)
 	- [TP: Introducción al lenguaje SQL y MySQL]
 	- [TP: Lenguaje SQL avanzado]
 	- [TP: Construcción de una API Rest]
@@ -56,7 +56,7 @@ A. Silberschatz, H. Korth, S. Sudarshan, ​ Fundamentos de Bases de Datos (Quin
 ***
 ## Software y librerías
 
-- Software: [MySQL](https://www.mysql.com/), [Mongo](https://www.mongodb.com/), ElasticSearch (), Redis ()
+- Software: [MySQL](https://www.mysql.com/), [Mongo](https://www.mongodb.com/), ElasticSearch (https://www.elastic.co/products/elasticsearch), Redis (https://redis.io/)
 - Lenguaje: [Python3](https://docs.python.org/3/)
 - Ambiente: [IPython](https://ipython.org), [Jupyter](https://jupyter.org/)
 - Librerías para computación científica: [Numpy](http://www.numpy.org/), [Pandas](https://pandas.pydata.org/), [Scipy](https://www.scipy.org/), [Scikit-learn](https://bokeh.pydata.org/en/latest/)
