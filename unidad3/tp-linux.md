@@ -83,6 +83,9 @@ El comando **ls** se usa para mostrar los permisos (y más detalles) de archivos
 - fecha y hora del archivo (mtime),
 - nombre del archivo.
 
+I think you should use an
+`<addr>` element here instead.
+
 
 
 
