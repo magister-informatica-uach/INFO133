@@ -155,7 +155,7 @@ Los sistemas GNU/Linux son multi-usuarios, es decir que pueden ser utilizados po
 
 En cualquier sistema GNU/Linux, se puede combinar comandos BASH en un script... 
 
-<por completar>
+<por completar>7a
 
 ### 4. Gestion de paquetes e instalación de nuevos programas
 
