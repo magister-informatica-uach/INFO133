@@ -153,9 +153,15 @@ Los sistemas GNU/Linux son multi-usuarios, es decir que pueden ser utilizados po
 
 #### 3.2 Script BASH
 
-En cualquier sistema GNU/Linux, se puede combinar comandos BASH en un script... 
+En cualquier sistema GNU/Linux, se puede combinar comandos BASH en un script. Es muy como para automatizar ciertas tareas.
 
-<por completar>7a
+Veamos un primer ejemplo "hello world":
+
+```
+#!/bin/bash
+# Este es nuestro primer progrma
+echo "Hola Mundo"
+```
 
 ### 4. Gestion de paquetes e instalación de nuevos programas
 
