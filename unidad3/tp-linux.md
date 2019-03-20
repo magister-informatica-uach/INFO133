@@ -49,8 +49,11 @@ El directorio raíz tiene un cierto número de ramificaciones, como «/etc/» y 
 #### 1.3 Ejercicio
 
 > Crear un repositorio "INFO133" en su carpeta de usuario (/home/REEMPLAZAR_CON_SU_NOMBRE_DE_USUARIO) con el comando **mkdir**
+
 > Crear un archivo texto vacio llamado mis_comandos.txt con el comando **touch**
+
 > Escribir "Hola" en el archivo mis_comandos.txt
+
 > Utilizar el comando **cat** para mostrar el contenido de mis_comandos.txt
 
 ### 2. Gestión de permisos en el sistema de archivos
@@ -153,7 +156,7 @@ Los sistemas GNU/Linux son multi-usuarios, es decir que pueden ser utilizados po
 
 #### 3.2 Script BASH
 
-En cualquier sistema GNU/Linux, se puede combinar comandos BASH en un script. Es muy como para automatizar ciertas tareas.
+En cualquier sistema GNU/Linux, se puede combinar comandos BASH en un script. Es muy como para automatizar ciertas tareas. Pueden encontrar un curso sobre scripts BASH [aqui](https://bioinf.comav.upv.es/courses/unix/scripts_bash.html).
 
 Veamos un primer ejemplo "hello world":
 
@@ -164,13 +167,31 @@ echo "Hola Mundo"
 ```
 
 > abrir un archivo llamado helloworld.sh con el programa gedit: `gedit helloworld.sh` y copiar el script
+
 > los scripts BASH (o shell) se ejecutan desde el terminal con la sintáxis siguiente: `./helloworld.sh`.
+
 > tratar de ejecutar su script. ¿Por qué no funciona? ¿Qué pueden hacer para ejecutarlo?
 
+#### Ejercicios
 
-### 4. Gestion de paquetes e instalación de nuevos programas
+Crear un script bash que permite:
+1. Tomar 10 enteros en entrada y devolver el promedio.
+1. Crear 40 archivos .txt en una carpeta de tu escritorio (con el comando **touch** para crearlos).
+1. Contar el número de archivos en /etc.
+1. Descargar la página de wikipedia sobre [crawler web](https://es.wikipedia.org/wiki/Ara%C3%B1a_web), listar los enlaces que contiene esta página y guardar los resultados en un archivo. ¿Qué faltaría para crear un robot _crawler_ similar a los que utilizan Google?
 
-<por completar>
+### 4. Gestion de paquetes e instalación de nuevos programas en Ubuntu: APT
+
+Un sistema de gestión de paquetes, también conocido como gestor de paquetes, es una colección de herramientas que sirven para automatizar el proceso de instalación, actualización, configuración y eliminación de paquetes de software. El término se usa comúnmente para referirse a los gestores de paquetes en sistemas GNU/Linux. 
+
+**APT** (Advanced Packaging Tool o Herramienta Avanzada de Empaquetado) abreviado APT, es un sistema de gestión de paquetes creado por el proyecto Debian, y por ende, es el que se usa en Ubuntu. APT es una aplicación que se ejecuta en el terminal pero que tiene algunos Front-End para gestionarlo de forma gráfica.
+
+Por ejemplo, para instalar el paquete `mysql-server`, el comando es:
+```sudo apt install mysql-server```
+
+Para suprimir un paquete, se utiliza el comando `apt remove nombreDelPaquete`.
+
+ver más detalles: https://www.debian.org/doc/manuals/debian-reference/ch02.es.html#_debian_package_management_prerequisites
 
 
 
