@@ -193,5 +193,10 @@ Para suprimir un paquete, se utiliza el comando `apt remove nombreDelPaquete`.
 
 ver más detalles: https://www.debian.org/doc/manuals/debian-reference/ch02.es.html#_debian_package_management_prerequisites
 
+#### 4.1 Ejercicios
+
+1. Instalar (si aún no están instalados) los paquetes de [MySQL](https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/#apt-repo-fresh-install) y [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/).
+1. Instalar [Jupyter](https://jupyter.org/install) con pip
+
 
 
