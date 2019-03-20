@@ -163,6 +163,11 @@ Veamos un primer ejemplo "hello world":
 echo "Hola Mundo"
 ```
 
+> abrir un archivo llamado helloworld.sh con el programa gedit: `gedit helloworld.sh` y copiar el script
+> los scripts BASH (o shell) se ejecutan desde el terminal con la sintáxis siguiente: `./helloworld.sh`.
+> tratar de ejecutar su script. ¿Por qué no funciona? ¿Qué pueden hacer para ejecutarlo?
+
+
 ### 4. Gestion de paquetes e instalación de nuevos programas
 
 <por completar>
