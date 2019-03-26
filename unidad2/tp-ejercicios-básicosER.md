@@ -57,19 +57,10 @@ y el número de camas que tiene. El número de habitación es local para un depa
 
 Una base de datos para una pequeña empresa debe contener información acerca de clientes, artı́culos
 y pedidos. Hasta el momento se registran los siguientes datos en documentos varios:
-• Para cada cliente: Número de cliente (único), Direcciones de envı́o (varias por cliente), Saldo,
+- Para cada cliente: Número de cliente (único), Direcciones de envı́o (varias por cliente), Saldo,
 Lı́mite de crédito (depende del cliente, pero en ningún caso debe superar los $30.000.000),
 Descuento.
-• Para cada artı́culo: Número de artı́culo (único), Fábricas que lo distribuyen, Existencias de
+- Para cada artı́culo: Número de artı́culo (único), Fábricas que lo distribuyen, Existencias de
 ese artı́culo en cada fábrica, Descripción del artı́culo.
-2• Para cada pedido: Cada pedido tiene una cabecera y el cuerpo del pedido. La cabecera está
-formada por el número de cliente, dirección de envı́o y fecha del pedido. El cuerpo del pedido
-son varias lı́neas, en cada lı́nea se especifican el número del artı́culo pedido y la cantidad.
-Además, se ha determinado que se debe almacenar la información de las fábricas. Sin embargo,
-dado el uso de distribuidores, se usará: Número de la fábrica (único) y Teléfono de contacto. Y
-se desean ver cuántos artı́culos (en total) provee la fábrica. También, por información estratégica,
-se podrı́a incluir información de fábricas alternativas respecto de las que ya fabrican artı́culos para
-esta empresa.
-Nota: Una dirección se entenderá como N o , Calle, Comuna y Ciudad. Una fecha incluye hora.
-Se pide hacer el diagrama entidad-relación para la base de datos que represente esta información.
-
+- Para cada pedido: Cada pedido tiene una cabecera y el cuerpo del pedido. La cabecera está
+formada por el número de cliente, dirección de envı́o y fecha del pedido. El cuerpo del pedido son varias lı́neas, en cada lı́nea se especifican el número del artı́culo pedido y la cantidad. Además, se ha determinado que se debe almacenar la información de las fábricas. Sin embargo, dado el uso de distribuidores, se usará: Número de la fábrica (único) y Teléfono de contacto. Y se desean ver cuántos artı́culos (en total) provee la fábrica. También, por información estratégica, se podrı́a incluir información de fábricas alternativas respecto de las que ya fabrican artı́culos para esta empresa.
