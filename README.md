@@ -22,7 +22,7 @@ La asignatura de **Base de Datos** tiene como principal propósito que los estud
 
 - **Unidad 2:** ¿Por qué y cómo representar información?
 
-      	- [TP: Ejercicios básicos de modelación ER]
+      	- [TP: Ejercicios básicos de modelación ER](unidad2/tp-ejercicios-básicosER.md)
 	- [TP: Ejercicios intermedios de modelación ER]
 	- [TP: Ejercicios avanzados de modelación ER]
 	- [TP: Ejercicios de transformación y normalización en base de datos relacional]
