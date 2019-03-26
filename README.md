@@ -21,7 +21,6 @@ La asignatura de **Base de Datos** tiene como principal propósito que los estud
 	- [Quiz/Curso: Propiedades de los SGBDs a nivel Hardware]
 
 - **Unidad 2:** ¿Por qué y cómo representar información?
-
       	- [TP: Ejercicios básicos de modelación ER](unidad2/tp-ejercicios-básicosER.md)
 	- [TP: Ejercicios intermedios de modelación ER]
 	- [TP: Ejercicios avanzados de modelación ER]
