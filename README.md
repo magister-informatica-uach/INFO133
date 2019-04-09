@@ -29,7 +29,7 @@ La asignatura de **Base de Datos** tiene como principal propósito que los estud
 
 - **Unidad 3:** ¿Cómo crear y consultar una Base de Datos y integrarla con otros programas?
 	- Introducción a sistema operativo GNU/Linux [[TP]](unidad3/tp-linux.md)
-	- Introducción al lenguaje SQL y MySQL: creación de una BD y consultas simples [[TP]](unidad3/tp-SQL1.md)
+	- Introducción al lenguaje SQL y MySQL: creación de una BD y consultas simples [[TP]](unidad3/tp-sql1.md)
 	- [TP: Lenguaje SQL avanzado]
 	- [TP: Construcción de una API Rest]
 	- [TP: Introducción a SGBDs no relacionales: Mongo, Redis y ElasticSearch]
