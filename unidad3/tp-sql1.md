@@ -178,7 +178,7 @@ VALUES (1, 2),
 
 ### 6. Consultas de lectura y escritura simple
 
-Finalmente ilustramos algunas manera de consultar la base de datos con SQL:
+Finalmente ilustramos algunas manera básica de consultar la base de datos con SQL:
 
 1. Mostrar la lista de estudiantes ingresados desde 2016
 
@@ -195,6 +195,8 @@ SELECT *
 FROM CURSAR
 WHERE ASIGNATURA_CODIGO = 4;
 
+```
+
 3. Mostrar los nombres de estudiantes que han cursado el curso de Inteligencia Artificial
 
 ```
@@ -202,3 +204,4 @@ SELECT NOMBRE
 FROM ESTUDIANTE e
 INNER JOIN CURSAR c ON e.ID = c.ESTUDIANTE_ID
 WHERE c.ASIGNATURA_CODIGO=4;
+```
