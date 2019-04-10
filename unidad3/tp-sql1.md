@@ -8,7 +8,7 @@
 
 ### 1. ¿Qué es SQL?
 
-SQL es un lenguaje para operar bases de datos; incluye creación de bases de datos, manipulación de filas, modificación de filas, etc. SQL es un lenguaje estándar ANSI (American National Standards Institute), pero hay muchas versiones diferentes del lenguaje SQL. La primera encarnación de SQL apareció en 1974, cuando un grupo de IBM desarrolló el primer prototipo de una base de datos relacional. Relational Software (luego se convirtió en Oracle) lanzó la primera base de datos relacional comercial. 
+SQL es un lenguaje para manipular bases de datos. Incluye creación de bases de datos, manipulación de filas, modificación de filas, etc. SQL es un lenguaje con estándar ANSI (American National Standards Institute), pero hay muchas versiones diferentes del lenguaje SQL. La primera versión de SQL apareció en 1974, cuando un grupo de IBM desarrolló el primer prototipo de una base de datos relacional. Relational Software (luego se convirtió en Oracle) lanzó la primera base de datos relacional comercial. 
 
 En la actualidad, se utilizan principalmente 4 SGBDs relacionales: Oracle, MySQL, Microsoft SQL Server, PostgreSQL (fuente: [[db-engines.com]](https://db-engines.com/en/ranking)). Cada uno de estos productos proveen una implementación del lenguaje SQL. Aunque compartan mismos estándares, existen algunas pequeñas diferencias en el SQL de cada producto.
 
@@ -100,13 +100,16 @@ La creación de una tabla básica implica nombrar la tabla y definir sus columna
 
 La instrucción SQL **CREATE TABLE** se utiliza para crear una nueva tabla. Por ejemplo:
 
-``
+```
 CREATE TABLE ESTUDIANTE(
+
 ID INT NOT NULL, 
+
 NOMBRE VARCHAR (20) NOT NULL, ANO_INGRESO  INT NOT NULL,
+
 PRIMARY KEY (ID)
 );
-``
+```
 
 
 
