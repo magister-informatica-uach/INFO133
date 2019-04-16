@@ -67,7 +67,7 @@ FROM employees
 ORDER BY lastname;
 ```
 
-** Ejercicios:**
+**Ejercicios:**
 1. Mostrar en qué ciudades viven los clientes.
 1. Misma pregunta pero de evitando mostrar varias veces la misma ciudad.
 
@@ -491,7 +491,7 @@ FROM
 1. Mostrar qué empleado realizó más volumen de negocio que los otros empleados.
 
 
-###. 7. Consultas adicionales:
+### 7. Consultas adicionales:
 
 1. Mostrar el numeros de empleados por oficinas
 1. Mostrar cómo evoluciona el volumen de negocio por mes
