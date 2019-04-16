@@ -17,7 +17,7 @@ La asignatura de **Base de Datos** tiene como principal propósito que los estud
 
 - **Unidad 1:** ¿Qué es un Software de Gestión de Bases de Datos?
 	- Evolución histórica de la Informática y de las Bases de Datos: [[Slides]](unidad1/slides-Maturana2012.pdf), [[Capitulo de libro]](unidad1/capitulo1.pdf)
-	- Propiedades de los SGBDs a nivel Software
+	- Transacciones y propiedades A.C.I.D
 	- Propiedades de los SGBDs a nivel Hardware
 
 - **Unidad 2:** ¿Por qué y cómo representar información?
@@ -30,7 +30,7 @@ La asignatura de **Base de Datos** tiene como principal propósito que los estud
 - **Unidad 3:** ¿Cómo crear y consultar una Base de Datos y integrarla con otros programas?
 	- Introducción a sistema operativo GNU/Linux [[TP]](unidad3/tp-linux.md)
 	- Introducción al lenguaje SQL y MySQL: creación de una BD y consultas simples [[TP]](unidad3/tp-sql1.md)
-	- [TP: Lenguaje SQL avanzado]
+	- Lenguaje SQL: Consultar, Ordenar, Filtrar, Agrupar [TP](unidad3/tp-sql2.md)
 	- [TP: Construcción de una API Rest]
 	- [TP: Introducción a SGBDs no relacionales: Mongo, Redis y ElasticSearch]
 
