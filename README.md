@@ -23,14 +23,14 @@ La asignatura de **Base de Datos** tiene como principal propósito que los estud
 - **Unidad 2:** ¿Por qué y cómo representar información?
 	- Ejercicios básicos de modelación ER: [[TP]](unidad2/tp-ejercicios-básicosER.md)
 	- Ejercicios básicos de modelación ER con transformación a modelo Relacional: [[TP]](unidad2/tp-ejercicios-básicosER.md)
-	- [TP: Ejercicios avanzados de modelación ER]
+	- Ejercicio de modelación ER y normalización en base de datos relacional[[TP]](unidad2/ejercicio1.md)
 	- [TP: Ejercicios de transformación y normalización en base de datos relacional]
 	- [TP: Ejercicios de transformación y normalización en base de datos no relacional]	
 
 - **Unidad 3:** ¿Cómo crear y consultar una Base de Datos y integrarla con otros programas?
 	- Introducción a sistema operativo GNU/Linux [[TP]](unidad3/tp-linux.md)
 	- Introducción al lenguaje SQL y MySQL: creación de una BD y consultas simples [[TP]](unidad3/tp-sql1.md)
-	- Lenguaje SQL: Consultar, Ordenar, Filtrar, Agrupar [TP](unidad3/tp-sql2.md)
+	- Lenguaje SQL: Consultar, Ordenar, Filtrar, Agrupar [[TP]](unidad3/tp-sql2.md)
 	- [TP: Construcción de una API Rest]
 	- [TP: Introducción a SGBDs no relacionales: Mongo, Redis y ElasticSearch]
 
@@ -49,7 +49,7 @@ La asignatura de **Base de Datos** tiene como principal propósito que los estud
 1. Next Generation Databases: NoSQL, NewSQL and Big Data by Guy Harrison
 
 ### Complementaria
-1. J. Maturana, ​ Curso de Bases de Dato, Universidad Austral de Chile
+1. J. Maturana, ​ Curso de Bases de Datos, Universidad Austral de Chile
 1. J. Hoffer, R. R. Venkataraman, H. Topi, ​ Modern Database Management (10th Edition) , ​ Prentice Hall.
 A. Silberschatz, H. Korth, S. Sudarshan, ​ Fundamentos de Bases de Datos (Quinta Edition), ​ McGraw-HiIll
 

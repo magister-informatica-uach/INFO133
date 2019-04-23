@@ -1,0 +1,61 @@
+1) Mostrar el numeros de empleados por oficinas
+
+SELECT officeCode, count(*) FROM employees GROUP BY officeCode;
+
+2) Mostrar cómo evoluciona el volumen de negocio por mes
+
+SELECT SUM(od.quantityOrdered * od.priceEach), MONTH(o.orderDate), YEAR(o.orderDate)
+FROM orderdetails od
+INNER JOIN orders o ON od.orderNumber = o.orderNumber
+GROUP BY YEAR(o.orderDate), MONTH(o.orderDate);
+
+3) Mostrar el volumen de negocio agrupado según el producto
+
+SELECT SUM(od.quantityOrdered * od.priceEach) as Volumen, p.productCode, p.productName
+FROM products p
+INNER JOIN orderdetails od ON p.productCode = od.productCode
+GROUP BY p.productCode, p.productName
+ORDER BY Volumen DESC;
+
+4) Mostrar qué productos nunca se vendieron
+
+con "LEFT JOIN":
+
+SELECT  p.productCode, p.productName 
+FROM products p 
+LEFT JOIN orderdetails od ON p.productCode = od.productCode 
+WHERE orderNumber is null;
+
+con "Subconsulta":
+
+SELECT  p.productCode, p.productName 
+FROM products p WHERE p.productCode NOT IN ( SELECT od.productCode FROM orderdetails od );
+
+----> SET PROFILING=1;
+SHOW PROFILES;
+
+5) Mostrar los productos que contienen las palabras "red", "blue" y "amarillo" en su descripción.
+
+SELECT p.productCode, p.productName, p.productDescription
+FROM products p
+WHERE p.productDescription LIKE "% blue%"
+OR p.productDescription LIKE "% red %"
+OR p.productDescription LIKE "% yellow%";
+
+6) Mostrar el volumen de negocio realizado agrupado por los productos que contienen la palabra "red" y los productos que contienen la palabra "yellow".
+
+SELECT SUM(od.quantityOrdered * od.priceEach) as Volumen
+FROM products p
+INNER JOIN orderdetails od ON p.productCode = od.productCode
+WHERE p.productDescription LIKE "% red %"
+UNION
+SELECT SUM(od.quantityOrdered * od.priceEach) as Volumen
+FROM products p
+INNER JOIN orderdetails od ON p.productCode = od.productCode
+WHERE p.productDescription LIKE "% yellow %";
+
+
+
+
+
+
