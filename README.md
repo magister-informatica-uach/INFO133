@@ -17,7 +17,7 @@ La asignatura de **Base de Datos** tiene como principal propósito que los estud
 
 - **Unidad 1:** ¿Qué es un Software de Gestión de Bases de Datos?
 	- Evolución histórica de la Informática y de las Bases de Datos: [[Slides]](unidad1/slides-Maturana2012.pdf), [[Capitulo de libro]](unidad1/capitulo1.pdf)
-	- Transacciones y propiedades A.C.I.D
+	- Transacciones, propiedades A.C.I.D, Triggers:[[TP]](unidad1/transacciones.md)
 	- Propiedades de los SGBDs a nivel Hardware
 
 - **Unidad 2:** ¿Por qué y cómo representar información?
