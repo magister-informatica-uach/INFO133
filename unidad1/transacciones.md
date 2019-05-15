@@ -16,15 +16,19 @@ Desde un terminal, se puede acceder al MySQL remoto con el comando siguiente:
 <code>mysql -h 146.83.216.219 -P 3001 -u _username_ -p</code>
 
 __-h__: IP de la máquina que aloja MySQL
+
 __-P__: puerto que utiliza MySQL para comunicar con programas externos
+
 __-u__: usuario autorizado
+
 __-p__: password del usuario
 
 
-###. Caso de estudio: Creación de una moneda alternativa por los estudiantes de Informática de la UACh
+### 1. Caso de estudio: Creación de una moneda alternativa por los estudiantes de Informática de la UACh
 
 Supongamos que los estudiantes de Informática-UACh deciden crear su propia moneda: el _Pudu_.
-Esta moneda sirve para facilitar pequeñas transacciones entre los miembros de la comunidad "Pudu", dentro del campus Miraflores.
+
+Esta moneda sirve para facilitar pequeñas transacciones entre los miembros de la comunidad dentro del campus Miraflores.
 
 Por el momento, el volumen de __Pudu__ en circulación no puede variar, está fijado en 5.000 PUDU.
 
@@ -35,7 +39,7 @@ Al momento de su creación, 1 PUDU era igual a 1.000 pesos. 5 estudiantes decidi
 <code> SELECT * FROM cuentas;</code>
 
 
-### ¿Qué es una transacción A.C.I.D?
+### 2- ¿Qué es una transacción A.C.I.D?
 
 Supongamos ahora que algunos estudiantes quieren empezar a utilizar sus PUDU:
 - el estudiante 1 quiere transferir 2 PUDU al estudiante 2 para reembolsar la compra de un sandwich.
@@ -138,8 +142,13 @@ Prueba con 'Exit'.
 
 
 ### Ejercicio
+1. Agregar una restriccion que permite que un miembro no puede tener más de 50% de los PUDU.
 1. Agregar una restricción que permite asegurarse que hay siempre 5.000 PUDU en el sistema.
 1. Agregar una restricción que permite evitar transacciones de más de 50 PUDU.
+
+Documentacion: https://dev.mysql.com/doc/refman/8.0/en/trigger-syntax.html
+
+
 
 
 
