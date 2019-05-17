@@ -32,6 +32,7 @@ La asignatura de **Base de Datos** tiene como principal propósito que los estud
 	- Introducción al lenguaje SQL y MySQL: creación de una BD y consultas simples [[TP]](unidad3/tp-sql1.md)
 	- Lenguaje SQL: Consultar, Ordenar, Filtrar, Agrupar [[TP]](unidad3/tp-sql2.md)
 	- Introducción al concepto de API web [[TP]](unidad3/TP_IntroduccionAPI_FlaskPython.ipynb)
+	- Scraping de datos en la web e integración con MySQL [[TP]](unidad3/Scraping data HTML.ipynb)
 	- [TP: Introducción a SGBDs no relacionales: Mongo, Redis y ElasticSearch]
 
 - **Unidad 4:** ¿Cuál es el rol de las bases de datos en los cambios globales societales?
