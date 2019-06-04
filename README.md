@@ -24,22 +24,22 @@ La asignatura de **Base de Datos** tiene como principal propósito que los estud
 	- Ejercicios básicos de modelación ER: [[TP]](unidad2/tp-ejercicios-básicosER.md)
 	- Ejercicios básicos de modelación ER con transformación a modelo Relacional: [[TP]](unidad2/tp-ejercicios-básicosER.md)
 	- Ejercicio de modelación ER y normalización en base de datos relacional[[TP]](unidad2/ejercicio1.md)
-	- [TP: Ejercicios de transformación y normalización en base de datos relacional]
-	- [TP: Ejercicios de transformación y normalización en base de datos no relacional]	
+	- Ejercicio de modelación ER y normalización en base de datos relacional[[TP]](unidad2/ejercicio2.md)
+	- Ejercicio de modelación ER y base de datos no relacional[[TP]](unidad2/ejercicio3.md)	
 
 - **Unidad 3:** ¿Cómo crear y consultar una Base de Datos y integrarla con otros programas?
 	- Introducción a sistema operativo GNU/Linux [[TP]](unidad3/tp-linux.md)
 	- Introducción al lenguaje SQL y MySQL: creación de una BD y consultas simples [[TP]](unidad3/tp-sql1.md)
 	- Lenguaje SQL: Consultar, Ordenar, Filtrar, Agrupar [[TP]](unidad3/tp-sql2.md)
+	- Revisión sobre consultas SQL [[TP]](unidad3/tp-sql3.md)
 	- Introducción al concepto de API web [[TP]](unidad3/TP_IntroduccionAPI_FlaskPython.ipynb)
 	- Scraping de datos en la web e integración con MySQL [[TP]](unidad3/tp-scraping.ipynb)
-	- Introducción a SGBDs no relacionales: Mongo, Redis y ElasticSearch
+	- Introducción a SGBDs no relacionales: Mongo
         - [TP Mongo](unidad3/tp-mongo.ipynb)
+	- [TP Mongo 2](unidad3/tp-mongo2.ipynb)
         
 - **Unidad 4:** ¿Cuál es el rol de las bases de datos en los cambios globales societales?
-	- [Estudio de caso: Datos e Inteligencia Artificial]
-	- [Estudio de caso: Datos y Economía de las APIs]
-	- [Estudio de caso: Datos y construcción de la Democracía]
+	- Preguntas éticas abiertas sobre el uso de las bases de datos
 
 ***
 ## Bibliografía 
