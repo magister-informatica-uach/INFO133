@@ -21,9 +21,9 @@
         "campus": "miraflores"
     },
     "posts_en_slack": [
-        {texto:"Hoy a las 20:30 luego del workshop informática vs contru b , esperamos su apoyo ,gracias.", fecha:2019-05-01},
-        {texto:"que paso con el paro?", fecha:2019-04-25},
-        {texto:"alguna info ? resolucion o algo  ?", fecha:2019-04-20}
+        {"texto":"Hoy a las 20:30 luego del workshop informática vs contru b , esperamos su apoyo ,gracias.", "fecha":2019-05-01},
+        {"texto":"que paso con el paro?", "fecha":2019-04-25},
+        {"texto":"alguna info ? resolucion o algo  ?", "fecha":2019-04-20}
     ]
 }
 ```
